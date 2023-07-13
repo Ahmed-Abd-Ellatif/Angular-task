@@ -1,0 +1,27 @@
+<section class="product">
+  <div class="container">
+    <div class="product-card row shadow">
+      <div class="left-side col-lg-6">
+        <img
+          [src]="
+            todo.completed
+              ? '../../../assets/images/complate.png'
+              : '../../../assets/images/not-complate.jpg'
+          "
+        />
+      </div>
+      <div class="right-side col-lg-6">
+        <h2>ID : {{ todo.id }}</h2>
+        <h3>{{ todo.title }}</h3>
+        <p [ngClass]="todo.completed ? 'complete' : 'incomplete'">
+          {{ todo.completed ? "complete" : "incomplete" }}
+        </p>
+        <div>
+          <button class="btn btn-primary" routerLink="products">
+            Back to products
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

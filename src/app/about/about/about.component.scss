@@ -1,0 +1,26 @@
+@import "../../../assets/styles/common.scss";
+.about {
+  padding: 100px 0;
+  .left-said {
+    img {
+      width: 100%;
+    }
+  }
+  .right-said {
+    h3 {
+      margin-bottom: 20px;
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 600;
+      color: $black-color;
+      span {
+        color: $blue-color;
+      }
+    }
+    p {
+      color: $black-color;
+      font-size: clamp(1rem, 4vw, 1.5rem);
+      margin-bottom: 0;
+      line-height: 30px;
+    }
+  }
+}

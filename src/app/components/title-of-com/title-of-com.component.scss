@@ -1,0 +1,15 @@
+@import "../../../assets/styles/common.scss";
+section {
+  background-image: url(../../../assets/images/heading-bg.jpg);
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  P {
+    @include title-of-com;
+    &::before {
+      @include title-of-com-before;
+    }
+  }
+}

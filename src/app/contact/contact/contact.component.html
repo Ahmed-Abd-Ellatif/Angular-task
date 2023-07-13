@@ -1,0 +1,79 @@
+<app-title-of-com [titleOfComponent]="'contact'"></app-title-of-com>
+<section class="contact">
+  <div class="container">
+    <form class="row g-3" [formGroup]="formData" (ngSubmit)="sendData()">
+      <div class="col-md-6">
+        <label for="inputName" class="form-label">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          [class.is-invalid]="userName?.invalid && userName?.touched"
+          id="inputName"
+          placeholder="Your Name"
+          formControlName="userName"
+        />
+        <small
+          *ngIf="userName?.invalid && userName?.touched"
+          class="text-danger"
+          >Name is Required*</small
+        >
+      </div>
+      <div class="col-md-6">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input
+          type="email"
+          class="form-control"
+          [class.is-invalid]="email?.invalid && email?.touched"
+          id="inputEmail"
+          placeholder="Your Email"
+          formControlName="email"
+        />
+        <div *ngIf="email?.invalid && email?.touched">
+          <small *ngIf="email?.errors?.['required']" class="text-danger"
+            >Email is Required*</small
+          >
+          <small *ngIf="email?.errors?.['email']" class="text-danger"
+            >Email format not correct*</small
+          >
+        </div>
+      </div>
+      <div class="col-12">
+        <label for="inputSubject" class="form-label">Subject</label>
+        <input
+          type="text"
+          class="form-control"
+          [class.is-invalid]="subject?.invalid && subject?.touched"
+          id="inputSubject"
+          placeholder="Enter the Subject"
+          formControlName="subject"
+        />
+        <small *ngIf="subject?.invalid && subject?.touched" class="text-danger"
+          >Subject is Required*</small
+        >
+      </div>
+      <div class="col-12">
+        <label for="inputMessage" class="form-label">Message</label>
+        <textarea
+          id="inputMessage"
+          placeholder="Enter the Message"
+          class="form-control"
+          [class.is-invalid]="message?.invalid && message?.touched"
+          formControlName="message"
+        ></textarea>
+        <small *ngIf="message?.invalid && message?.touched" class="text-danger"
+          >Message is Required*</small
+        >
+      </div>
+
+      <div class="col-12">
+        <button
+          type="submit"
+          [disabled]="formData.invalid"
+          class="btn btn-primary"
+        >
+          Send
+        </button>
+      </div>
+    </form>
+  </div>
+</section>

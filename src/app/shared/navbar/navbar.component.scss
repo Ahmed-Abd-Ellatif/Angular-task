@@ -1,0 +1,24 @@
+@import "../../../assets/styles/common.scss";
+.navbar {
+  background-color: $main-color;
+  color: $white-color;
+  P {
+    margin-bottom: 0px;
+    border-top: 2px solid $white-color;
+    font-size: 1.5rem;
+    // padding: 0;
+    cursor: pointer;
+  }
+  button {
+    color: $white-color;
+  }
+  a {
+    color: $gray-color;
+    font-size: 1.155rem;
+    &.active,
+    &:hover {
+      color: $white-color;
+      cursor: pointer;
+    }
+  }
+}

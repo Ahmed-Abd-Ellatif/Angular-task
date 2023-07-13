@@ -1,0 +1,25 @@
+@import "../../../assets/styles/common.scss";
+.contact {
+  background-color: #000000e7;
+  padding: 100px 0;
+  form {
+    label {
+      color: $white-color;
+    }
+    input {
+      height: 50px;
+    }
+    textarea {
+      height: 200px;
+      resize: none;
+    }
+    button {
+      padding: 10px 50px;
+      &:disabled {
+        background-color: $gray-color;
+        border: none;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
