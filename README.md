@@ -4,4 +4,5 @@
 
 **Diagram to Explain Application**
 
-![digram](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/1767e20f-5bb5-470f-aca3-633837da1bc1)
+![diagram](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/fa13ea48-5b37-4f12-8dff-e47eb5a36b6f)
+
