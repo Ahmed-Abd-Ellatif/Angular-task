@@ -87,3 +87,13 @@
 > - Using Pipes to transform string to uppercase
 > 
 > ![pipe](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/f9105c9d-5e36-4dbd-b3f6-283777c43553)
+
+
+**7- Using Services**
+
+> - Diagram to explain how service work
+>
+> ![Untitled Diagram drawio](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/3d357cca-9ead-45ec-80b1-9fb68fdb0b66)
+> 
+> 
+> ![service](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/12e6237c-0f10-46d4-8e36-61366877d7ad)
