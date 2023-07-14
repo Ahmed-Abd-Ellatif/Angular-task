@@ -97,3 +97,10 @@
 > 
 > 
 > ![service](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/12e6237c-0f10-46d4-8e36-61366877d7ad)
+
+
+**9- Using API**
+
+> - Using JSON Placeholder as API
+>
+>![API](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/06703c2f-7cfb-4749-b253-7ea8a59ab477)
