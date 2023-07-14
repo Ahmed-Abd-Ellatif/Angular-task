@@ -24,7 +24,7 @@
 
 **2- Using Angular Routing**
 
-> - to navigate between pages.
+> - to navigate between pages or Modules.
 >
 > ![AngularRouting](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/7266138a-aad7-419a-9e68-79ccaccf6b37)
 
@@ -34,9 +34,11 @@
 > - to Share data between components
 > 
 > - Parent
+>   
 > ![InputDecorator](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/6136776a-e90c-404b-81e3-8989fcc4da69)
 > 
 > - Child
+>   
 > ![InputDecorator2](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/4f5139f4-708d-44f9-8470-27503c19bcf3)
 >
 > - Result
