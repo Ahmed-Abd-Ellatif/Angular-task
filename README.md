@@ -14,3 +14,10 @@
 > - PORTFOLIO MODULE
 > - TEAM MODULE
 > - CONTACT MODULE
+
+
+**1-Using Lazy Loading**
+
+Lazy loading is the process of loading components, modules, or other assets of a website as they're required.
+
+![lazyLoading](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/26f39b34-7415-4e9c-9938-401766fc9aa6)
