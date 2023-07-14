@@ -33,10 +33,10 @@
 
 > to Share data between components
 > 
-> Child
+> Parent
 > ![InputDecorator](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/6136776a-e90c-404b-81e3-8989fcc4da69)
 > 
-> Parent
+> Child
 > ![InputDecorator2](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/4f5139f4-708d-44f9-8470-27503c19bcf3)
 >
 > Result
