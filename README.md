@@ -104,3 +104,11 @@
 > - Using JSON Placeholder as API
 >
 >![API](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/06703c2f-7cfb-4749-b253-7ea8a59ab477)
+
+
+**10- Using Bootstrap and SCSS**
+
+> - Using bootstrap to help me make website responsive.
+> 
+> ![bootstrap1](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/1eab2600-9ede-4659-9300-4f807f0ce0bb)
+> ![bootstrap2](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/107a35f5-281b-4db1-9f75-88829fe385bf)
