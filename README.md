@@ -66,6 +66,14 @@
 > ![ReactiveForm3](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/25a0d840-d859-4806-8bb4-bb9e13f5d2fb)
 
 
+
+**5- Using Angular Material and Pagination**
+
+> - Create Table and Using Pagination
+> 
+> ![pagination](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/77d2daa2-209b-47ce-8772-cb723f8c0f2a)
+
+
 **6- Using Directives and Pipes**
 
 > -  Using Structural Directive such as *ngFor
@@ -79,10 +87,3 @@
 > - Using Pipes to transform string to uppercase
 > 
 > ![pipe](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/f9105c9d-5e36-4dbd-b3f6-283777c43553)
-
-
-**5- Using Angular Material and Pagination**
-
-> - Create Table and Using Pagination
-> 
-> ![pagination](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/77d2daa2-209b-47ce-8772-cb723f8c0f2a)
