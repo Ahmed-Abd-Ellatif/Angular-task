@@ -98,6 +98,16 @@
 > 
 > ![service](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/12e6237c-0f10-46d4-8e36-61366877d7ad)
 
+**8- Make component to get all data and another component to view details for one element.**
+
+> - Create Products Component Contain All Todos
+> ![AllTodos](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/8d31ec09-98aa-4c28-b86d-45b6251d466d)
+
+
+> - Create Product Component Contain of details 
+> ![oneTodo](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/075cd15f-0966-4599-bc91-b8ed2fefb89c)
+
+> I used too `Router` to navigate between Pages and  `ActivatedRoute` to read URL and get data such as (ID)
 
 **9- Using API**
 
