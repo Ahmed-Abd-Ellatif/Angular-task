@@ -21,7 +21,7 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
     this._route.params.subscribe((res) => {
       this.todoId = res['id'];
-      this._service.getOneAll(this.todoId).subscribe((res) => {
+      this._service.getOneTodo(this.todoId).subscribe((res) => {
         this.todo = res;
       });
     });

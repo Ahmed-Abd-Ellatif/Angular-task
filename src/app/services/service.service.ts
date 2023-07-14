@@ -8,12 +8,12 @@ import { Observable } from 'rxjs';
 export class ServiceService {
   constructor(private _http: HttpClient) {}
 
-  getAll(): Observable<any> {
+  getAllTodos(): Observable<any> {
     return this._http.get<any>(
       'https://jsonplaceholder.typicode.com/todos?_limit=40'
     );
   }
-  getOneAll(id: any): Observable<any> {
+  getOneTodo(id: any): Observable<any> {
     return this._http.get<any>(
       `https://jsonplaceholder.typicode.com/todos/${id}`
     );

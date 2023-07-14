@@ -18,7 +18,7 @@ export class ProductsComponent implements OnInit {
   constructor(private _service: ServiceService, private _router: Router) {}
 
   ngOnInit(): void {
-    this._service.getAll().subscribe((res) => {
+    this._service.getAllTodos().subscribe((res) => {
       this.todos = res;
       console.log('test', this.todos);
     });
