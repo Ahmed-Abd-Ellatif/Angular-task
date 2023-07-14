@@ -101,13 +101,18 @@
 **8- Make component to get all data and another component to view details for one element.**
 
 > - Create Products Component Contain All Todos
+>
+>![r1](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/3f78f71f-4f30-4f21-84fe-ae4584b98ec5)
 > ![AllTodos](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/8d31ec09-98aa-4c28-b86d-45b6251d466d)
 
 
 > - Create Product Component Contain of details 
+>
+>![r2](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/02ff2ce5-f7c3-47f3-97ee-c7441989a549)
 > ![oneTodo](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/075cd15f-0966-4599-bc91-b8ed2fefb89c)
 
 > I used too `Router` to navigate between Pages and  `ActivatedRoute` to read URL and get data such as (ID)
+
 
 **9- Using API**
 
