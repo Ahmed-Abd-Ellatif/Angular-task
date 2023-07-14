@@ -1,6 +1,6 @@
 # AngularTask
 
-**Demo Link** :  https://angular-task-blue.vercel.app/contact
+**Demo Link** :  https://angular-task-blue.vercel.app
 
 **Diagram to Explain Application**
 
