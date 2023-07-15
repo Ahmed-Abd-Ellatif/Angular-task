@@ -13,7 +13,7 @@ export class ServiceService {
   getAllTodos(): Observable<Todos> {
     return this._http.get<Todos>(`${environment.urlPath}?_limit=20`);
   }
-  getOneTodo(id: any): Observable<Todos> {
+  getOneTodo(id: number): Observable<Todos> {
     return this._http.get<Todos>(`${environment.urlPath}/${id}`);
   }
 }
