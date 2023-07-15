@@ -96,7 +96,9 @@
 > ![Untitled Diagram drawio](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/3d357cca-9ead-45ec-80b1-9fb68fdb0b66)
 > 
 > 
-> ![service](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/12e6237c-0f10-46d4-8e36-61366877d7ad)
+> ![service](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/b1c57ddf-b9e0-4eaa-b171-65a8070454c1)
+
+
 
 **8- Make component to get all data and another component to view details for one element.**
 
@@ -118,7 +120,7 @@
 
 > - Using JSON Placeholder as API
 >
->![API](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/06703c2f-7cfb-4749-b253-7ea8a59ab477)
+> ![API](https://github.com/Ahmed-Abd-Ellatif/Angular-task/assets/61418344/3981ef13-1cef-44a9-888e-8e8493a95f99)
 
 
 **10- Using Bootstrap and SCSS**
