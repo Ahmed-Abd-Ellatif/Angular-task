@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { Todos } from './todos';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root',
@@ -8,14 +10,10 @@ import { Observable } from 'rxjs';
 export class ServiceService {
   constructor(private _http: HttpClient) {}
 
-  getAllTodos(): Observable<any> {
-    return this._http.get<any>(
-      'https://jsonplaceholder.typicode.com/todos?_limit=40'
-    );
+  getAllTodos(): Observable<Todos> {
+    return this._http.get<Todos>(`${environment.urlPath}?_limit=20`);
   }
-  getOneTodo(id: any): Observable<any> {
-    return this._http.get<any>(
-      `https://jsonplaceholder.typicode.com/todos/${id}`
-    );
+  getOneTodo(id: any): Observable<Todos> {
+    return this._http.get<Todos>(`${environment.urlPath}/${id}`);
   }
 }
